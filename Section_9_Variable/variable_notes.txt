@@ -1,0 +1,26 @@
+Variable Notes:
+ 
+- Numerica data types:
+
+Both types "double" and "float" can be classified as "floating point numbers". What a floating point number is: anything with a fractional part.
+
+For example:
+5.4 6.8 3.0
+
+Floating point:
+The difference between the double type and the float type is precision. Think of precision as "How much data the variable can hold".
+
+For example:
+If we had the value 99.999999. This value is super precise. 
+
+Double type:
+
+Double data types are more standard. If you pass any float data types to the placeholders %i and %f inside the printf() function, the printf() function would convert the float value to a double data type. This is why we mentioned earlier that double data type are more standard. 
+
+FYI: When we use double data type, it would take up twice the space. This applies for a device with limited memory. 
+
+c functions:
+
+- scanf():
+When we scanf in floating point values we use the placeholder %lf. This is how we scanf() a double. The %lf format character can be used to read scientific notation and decimal notation. 
+
